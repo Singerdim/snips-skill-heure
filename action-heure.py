@@ -43,9 +43,9 @@ def intent_received(hermes, intent_message):
 	print(intent_message.intent.intent_name)
 	print ()
 
-	if intent_message.intent.intent_name == 'Joseph:askTime':
+	if intent_message.intent.intent_name == 'singerdim:askTime':
 
-		sentence = 'Achete toi une montre! Il est '
+		sentence = 'Achete toi une belle montre! Il est '
 		print(intent_message.intent.intent_name)
 
 		now = datetime.now(timezone('Europe/Paris'))
