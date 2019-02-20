@@ -43,7 +43,7 @@ def intent_received(hermes, intent_message):
 	print(intent_message.intent.intent_name)
 	print ()
 
-	if intent_message.intent.intent_name == 'singerdim:askTime':
+	if intent_message.intent.intent_name == 'Joseph:askTime':
 
 		sentence = 'Achete toi une montre! Il est '
 		print(intent_message.intent.intent_name)
